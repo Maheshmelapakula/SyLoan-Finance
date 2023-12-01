@@ -1,10 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+  const links=[
+    {
+      title:'Home',
+      path:'/'
+    }
+  ]
   return (
     <div>
-        <h1>NavBar</h1>
-      
+        {links.map((link)=>{
+          return <Link to={link.path} key={link.path}>{link.title}</Link>
+        })}
     </div>
   )
 }
