@@ -2,13 +2,13 @@ import React from 'react'
 import Styles from "../Product/Products.module.css"
 import cerditCard from "./productsImages/creditCard.png"
 import PersonalLoan from "./productsImages/PersonalLoan.png"
-// import MicroLoans from "./productsImages/MicroLoans.png"
+import MicroLoans from "./productsImages/MicroLoans.png"
 import TransferPersonalLoan from "./productsImages/TranferPersonalLoan.png"
-// import HomeLoan from "./productsImages/HomeLoan.png"
-// import LoanAgainstProperty from "./productsImages/LoanAgainstProperty.png"
-// import BusinessLoan from "./productsImages/Business Loan.png"
-// import stepUpCreditCard from "./productsImages/stepUpCreditCard.png"
-// import transferHomeLoan from "./productsImages/transferHomeLoans.png"
+import HomeLoan from "./productsImages/HomeLoan.png"
+import LoanAgainstProperty from "./productsImages/LoanAgainstProperty.png"
+import BusinessLoan from "./productsImages/Business Loan.png"
+import stepUpCreditCard from "./productsImages/stepUpCreditCard.png"
+import transferHomeLoan from "./productsImages/transferHomeLoans.png"
 const Products = () => {
   return (
     <div>
@@ -22,7 +22,7 @@ const Products = () => {
                         <p>Get Best Offers →</p>
                     </div>
                     <div>
-                        <img src={cerditCard} alt="" />
+                        {/* <img src={cerditCard} alt="" /> */}
                     </div>
                 </div>
 
@@ -33,11 +33,11 @@ const Products = () => {
                         <p>Check Eligibilty →</p>
                     </div>
                     <div>
-                        <img src={PersonalLoan} alt="" />
+                        {/* <img src={PersonalLoan} alt="" /> */}
                     </div>
                 </div>
 
-{/* 
+
                 <div className={Styles.card1}>
                     <div className={Styles.info}>
                         <h4>MICRO LOANS </h4>
@@ -45,21 +45,21 @@ const Products = () => {
                         <p>Get Instant Loans →</p>
                     </div>
                     <div>
-                        <img src={MicroLoans} alt="" />
+                        {/* <img src={MicroLoans} alt="" /> */}
                     </div>
-                </div> */}
+                </div>
 
 
-                {/* <div className={Styles.card1}>
+                <div className={Styles.card1}>
                     <div className={Styles.info}>
                         <h4>BUSINESS LOAN (Under 50K)</h4>
                         <p>Expand your business with loans at low interest rates</p>
                         <p>Check Eligibility →</p>
                     </div>
                     <div>
-                        <img src={BusinessLoan} alt="" />
+                        {/* <img src={BusinessLoan} alt="" /> */}
                     </div>
-                </div> */}
+                </div>
 
 
                 <div className={Styles.card1}>
@@ -69,33 +69,33 @@ const Products = () => {
                         <p>Reduce Your EMI →</p>
                     </div>
                     <div>
-                        <img src={TransferPersonalLoan} alt="" />
+                        {/* <img src={TransferPersonalLoan} alt="" /> */}
                     </div>
                 </div>
 
 
-                {/* <div className={Styles.card1}>
+                <div className={Styles.card1}>
                     <div className={Styles.info}>
                         <h4>HOME LOAN</h4>
                         <p>Choose from lowest interest rates available for your dream home</p>
                         <p>Check Eligibility →</p>
                     </div>
                     <div>
-                        <img src={HomeLoan} alt="" />
+                        {/* <img src={HomeLoan} alt="" /> */}
                     </div>
-                </div> */}
+                </div>
 
 
-                {/* <div className={Styles.card1}>
+                <div className={Styles.card1}>
                     <div className={Styles.info}>
                         <h4>LOAN AGAINST PROPERTY</h4>
                         <p>Get liquidity against your property at best interest rates</p>
                         <p>Get Best Offers →</p>
                     </div>
                     <div>
-                        <img src={LoanAgainstProperty} alt="" />
+                        {/* <img src={LoanAgainstProperty} alt="" /> */}
                     </div>
-                </div> */}
+                </div>
 
 
                 <div className={Styles.card1}>
