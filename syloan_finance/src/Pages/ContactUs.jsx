@@ -4,8 +4,11 @@ import style from './Contact.module.css'
 export const ContactUs = () => {
   return (
     // <div className="contact-container">
+    // Anand working on issues
+    
     <div className={style.container}>
-      <h1>Contact Us</h1>
+    
+      <h1>Contact Us for more Details</h1>
       <h3>Contact us for any query</h3>
       <p>
        Get in touch with us to find answers to your queries related to loans, investments, cards, insurance and other services.
@@ -33,7 +36,7 @@ export const ContactUs = () => {
         <h2>Send us a Message</h2>
         <div className="form">
           <form>
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Name:-</label>
             <input type="text" id="name" name="name" required />
 
             <label htmlFor="email">Email:</label>
