@@ -33,7 +33,7 @@ export const ContactUs = () => {
         <h2>Send us a Message</h2>
         <div className="form">
           <form>
-            <label htmlFor="name">Name:-</label>
+            <label htmlFor="name">Name:</label>
             <input type="text" id="name" name="name" required />
 
             <label htmlFor="email">Email:</label>
