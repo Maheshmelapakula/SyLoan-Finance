@@ -2,13 +2,13 @@
 import './App.css';
 import LoanTypeSelector from './Components/LoanTypeSelector';
 import Products from './Components/Product/Products';
+import AllRoutes from './Routes/AllRoutes';
 
 
 function App() {
   return (
     <div className="App">
-     <LoanTypeSelector/>
-     <Products/>
+    <AllRoutes/>
     </div>
   );
 }

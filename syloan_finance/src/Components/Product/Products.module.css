@@ -5,27 +5,33 @@
     margin: auto;
     padding: 10px;
     background-color: darkblue; /* Background color for the container */
+  
 }
 
 .card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 
 .card1 {
-    max-width: 250px;
+    /* max-width: 250px; */
     height: 200px;
     margin: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
     background-color: transparent; /* Reset card background to transparent */
-    color: white; /* Text color changed to white for better visibility */
+     /* Text color changed to white for better visibility */
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
 }
 
 .card1:hover {
     transform: scale(1.05);
+    background-color: wheat;
 }
 
 .card1 .info {
