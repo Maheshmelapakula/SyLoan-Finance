@@ -1,0 +1,43 @@
+.cibilchekerdiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2%;
+    margin-top: 10%;
+
+
+    /* border-radius: 10px solid black; */
+
+}
+
+.cibilindicator{
+
+    padding: 5%;
+    /* margin: auto; */
+    width: 90%;
+    
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.scoretitle{
+    margin-top: 0%;
+}
+
+.scoretitle{
+
+    margin: 50px 0px;
+}
+
+.cibilscorereferance{
+
+    padding: 5%;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+
+@media screen and (min-width: 400px) and (max-width:750px){
+    
+    .cibilchekerdiv{
+        display: block;
+    }
+}
