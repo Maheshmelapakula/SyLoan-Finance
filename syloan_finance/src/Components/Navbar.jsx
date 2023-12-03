@@ -1,3 +1,15 @@
+// import React from 'react'
+
+// const Navbar = () => {
+//   return (
+//     <div>
+//         <h1>NavBar</h1>
+      
+//     </div>
+//   )
+// }
+
+// export default Navbar
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -18,6 +30,7 @@ const Navbar = () => {
     {
       title:'ContactUs',
       path:'/ContactUs'
+
     }
   ]
   return (

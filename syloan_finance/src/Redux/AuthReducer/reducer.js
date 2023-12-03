@@ -1,6 +1,10 @@
 
+const intialState={
+    isAuth:false,
+    token:''
+}
 
-export const AuthReducer=(state,action)=>{
+export const AuthReducer=(state=intialState,action)=>{
     const {type,payload}=action;
     switch(type){
 
