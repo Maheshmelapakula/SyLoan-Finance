@@ -32,6 +32,10 @@ const Navbar = () => {
       path:'/ContactUs'
 
     },
+    {
+      title:'Calculator',
+      path:'/calculator'
+    }
   ]
   return (
     <div>

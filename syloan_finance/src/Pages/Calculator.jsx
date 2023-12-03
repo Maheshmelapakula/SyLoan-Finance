@@ -1,13 +1,13 @@
 import React from 'react'
 
-// import EmiCalculators from '../Components/Calculators/EmiCalculators'
-// import CibilChecker from '../Components/Calculators/CibilChecker'
+import EmiCalculators from '../Components/Calculators/EmiCalculators'
+import CibilChecker from '../Components/Calculators/CibilChecker'
 const Calculator = () => {
   return (
     <div>
-
-        {/* <EmiCalculators/>
-        <CibilChecker/> */}
+        <CibilChecker/>
+        <EmiCalculators/>
+        
     </div>
   )
 }
