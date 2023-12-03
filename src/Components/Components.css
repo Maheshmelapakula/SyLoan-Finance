@@ -1,0 +1,341 @@
+.navList1{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    justify-content: center;
+}
+.navPage{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: rgb(2, 9, 31);
+    color: white;
+    height: 6rem;
+    align-items: center;
+}
+
+.navlist a{
+    margin-right: 10px;
+}
+.register-nav a{
+    margin-right: 10px;
+}
+#register-button{
+    border: 1px solid rgb(75, 188, 143);
+    width: 100px;
+    border-radius: 14px;
+    color:rgb(75, 188, 143);
+    
+}
+
+
+
+/* ......Main Section... */
+
+.mainsection{
+    /* background-color: black; */
+    /* border: 4px solid rgb(245, 238, 238); */
+    color: white;
+    background-image: url("../assets/main.jpg");
+
+
+}
+
+.sec1 div>h3{
+    font-size: 80px;
+    font-weight: bolder;
+    width: 60%;
+    line-height: normal;
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+    padding-left: 50px;
+    /* padding: 30px; */
+}
+.sec1 div>h3>span{
+    color: rgb(73, 73, 209);
+}
+.sec12 p{
+    color: rgb(143, 141, 141);
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.sec13{
+    padding-left:50px;
+    margin-top: 30px;
+}
+
+.sec13 button{
+    border: 1px solid rgb(66, 66, 239);
+    border-radius: 20px;
+    width: 10%;
+    background-color: rgba(35, 75, 252, 0.8);
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    /* padding-left: 50px; */
+}
+
+.sec2{
+    display: flex;
+    /* padding-bottom: 5%; */
+    /* padding-top: 4%; */
+    margin-top: 3%;
+    padding-bottom: 2%;
+}
+.sec21{
+    width: 20%;
+    padding-left: 50px;  
+    color: gray;
+}
+.sec22{
+    width: 15%;
+    color: gray;
+}
+
+.sec21 p >span{
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+
+.sec21 p:first-child{
+    color: white;
+    font-size: 25px;
+}
+.sec22 p:first-child{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+/* ...How it Works... */
+.how-works{
+   /* border: 3px solid yellow; */
+   text-align: center;
+}
+.heading-work p:first-child{
+    font-size: 29px;
+    font-weight: bold; 
+    color: rgb(255, 189, 66);   
+    padding-top: 10rem;
+}
+.heading-work p:last-child{
+    font-weight: bolder;
+    font-size: 70px;
+    width:60%;
+    /* padding-left: 15rem; */
+    /* border: solid red; */
+    margin-left: 20rem;
+    
+}
+.heading-work p>span{
+    color: rgb(63, 63, 213);
+}
+
+
+.services{
+    background-image: url("../assets/howitworks.jpg");
+}
+
+
+
+
+
+/* .......footer */
+.footer
+{
+    background-color: rgb(2, 9, 31);
+    color:white;
+
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-1 p{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+.footer-top-1 p>span{
+    color: rgba(142, 89, 233, 0.923);
+}
+.footer-top-2 button{
+    border: 1px solid rgba(76, 12, 186, 0.923);
+    background-color: rgba(65, 192, 234, 0.923);
+    margin-top: 2rem;
+    margin-right: 5rem;
+    width: 10rem;
+    height: 7vh;
+    border-radius: 5rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom div>ul>li{
+    display: flex;
+    flex-direction: column;
+    line-height: 5vh;
+    color: grey;
+}
+#quickmenu{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+    /* margin-top: 20px; */
+}
+.footer-bottom div{
+    margin-top: 5vh;
+    color: grey;
+ 
+}
+
+.footer-bottom div:first-child>p{
+    width: 60%;
+    color: grey;
+}     
+
+/* ... Your existing code ... */
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .navPage {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navlist a,
+    .register-nav a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    #register-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust styles for smaller screens in the main section */
+    .sec1 div>h3 {
+        font-size: 50px;
+        width: 80%;
+        padding-left: 20px;
+    }
+
+    .sec12 p {
+        width: 80%;
+        padding-left: 20px;
+    }
+
+    .sec13 button {
+        width: 30%;
+    }
+
+    .sec2 {
+        flex-direction: column;
+    }
+
+    .sec21,
+    .sec22 {
+        width: 100%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* ... Add more adjustments for responsiveness ... */
+
+    /* How it Works section */
+    .heading-work p:first-child {
+        padding-top: 5rem;
+    }
+
+    .heading-work p:last-child {
+        margin-left: 0;
+    }
+}
+
+/* ... Your existing code ... */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}
+
+.social-icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom > div {
+    padding-left: 20px; /* Adjust the value as needed */
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}
+
+.social-icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.how-works {
+    text-align: center;
+  }
+  
+  .heading-work {
+    /* Your existing styles for heading-work */
+  
+    /* Additional styles to center the heading */
+    margin: auto;
+    width: 60%; /* Adjust the width as needed */
+  }
+  
+  .heading-work p:last-child {
+    /* Additional styles for the last paragraph */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Additional styles for the image */
+  .how-works img {
+    display: block; /* Remove any extra spacing around the image */
+    margin: auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  }
+  
