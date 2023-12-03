@@ -5,7 +5,7 @@
 }
 .container{
     width: 80%;
-    margin: auto;
+    /* margin: auto; */
 }
 /* .contact-container {
     max-width: 800px;
@@ -28,7 +28,7 @@
   }
   
   input, textarea {
-    width: 100%;
+    width: 90%;
     padding: .5em;
     margin-bottom: .8em .1em;
     box-sizing: border-box;
