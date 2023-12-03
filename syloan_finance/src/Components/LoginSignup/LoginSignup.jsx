@@ -99,7 +99,7 @@ import { useNavigate } from 'react-router-dom';
         </div>
         </div>
        
-        <div className='forgot-password'><span>Forgot Password?</span></div>
+        {/* <div className='forgot-password'><span>Forgot Password?</span></div> */}
         <div className='submit-container'>
         <button onClick={handleSignup}>Signup</button>
         {/* <button onClick={handleLogin}>Login</button> */}

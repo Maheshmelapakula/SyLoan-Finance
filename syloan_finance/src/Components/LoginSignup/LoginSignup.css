@@ -324,5 +324,15 @@ cursor: pointer;}
   .gray:hover {
     background: #c4c4c4;
   }
+
+  .submit-container button{
+    border: none;
+    padding: .7em;
+    /* background: #3c009d; */
+  }
+  .submit-container button:hover{
+    background: green;
+    /* background: #3c009d; */
+  }
   
   
