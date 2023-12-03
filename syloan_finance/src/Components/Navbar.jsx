@@ -6,6 +6,18 @@ const Navbar = () => {
     {
       title:'Home',
       path:'/'
+    },
+    {
+      title:'SignUp',
+      path:'/SignUp'
+    },
+    {
+      title:'Login',
+      path:'/Login'
+    },
+    {
+      title:'ContactUs',
+      path:'/ContactUs'
     }
   ]
   return (

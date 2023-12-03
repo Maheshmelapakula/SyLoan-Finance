@@ -1,0 +1,64 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  } */
+  
+  /* h1, h2 {
+    color: #333;
+  } */
+  
+  /* .contact-info, .contact-form {
+    margin-top: 20px;
+  } */
+
+ 
+  
+  label {
+    display: block;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: .5em;
+    margin-bottom: .8em .1em;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: .6em 1.2em;
+    border: none;
+    cursor: pointer;
+    margin: 1em;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  /* .form{
+    width: 50%;
+    background: #45a049;
+  } */
+
+  .contactForm{
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: red;
+  }
+  
