@@ -17,6 +17,7 @@ import { ContactUs } from '../Pages/ContactUs'
 
 import LoginSignup from '../Components/LoginSignup/LoginSignup'
 import Login from '../Components/LoginSignup/Login'
+import Calculator from '../Pages/Calculator'
 
 
 const AllRoutes = () => {
@@ -27,6 +28,7 @@ const AllRoutes = () => {
           <Route path='/SignUp' element={<LoginSignup/>}/>
           <Route path='/Login' element={<Login/>}/>
           <Route path='/ContactUs' element={<ContactUs/>}/>
+          {/* <Route path='/calculator' element={<Calculator/>}/> */}
       </Routes>
     </div>
   )

@@ -1,0 +1,45 @@
+.emical{
+
+   /* border: 1px solid black; */
+   margin: 2%;
+   padding: 5%;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+   border-radius: 1%;
+    
+}
+
+.emiCaldiv{
+    /* margin-bottom: 2%; */
+}
+
+.emirange{
+    margin-bottom: 10%;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    border-radius: 3%;
+    padding: 2%;
+}
+
+.tablecell1,.tablecell2{
+    /* border: 1px solid black; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 50%;
+}
+.piechart{
+
+    /* background-color: black; */
+
+    /* backdrop-filter: blur(5px); */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+
+@media screen and (min-width: 400px) and (max-width:750px){
+    
+    .emiCaldiv, .tablerow{
+        display: block;
+    }
+}
+
