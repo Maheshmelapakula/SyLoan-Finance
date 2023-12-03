@@ -1,6 +1,7 @@
 *, *::before, *::after {
     margin: 0;
     padding: 0;
+    /* width: 100%; */
     box-sizing: border-box;
 }
 .ContactUsContainer{
@@ -37,12 +38,14 @@
 
   .ContactUsContainer .formContainer{
     display: flex;
+    margin: 1rem 0;
   }
   .ContactUsContainer .contactForm{
     width: 50%;
     margin: auto;
     margin: 1rem;
     border: 1px solid black;
+    border-radius: .5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,15 +55,34 @@
   .ContactUsContainer .title{
       color: #3f3fd5;
   }
-  .ContactUsContainer{
-    
+  .ContactUsContainer .info{
+    margin: 1.5em 0;
+  }
+  .ContactUsContainer .contactInfo{
+    margin: 1em 0;
+  }
+  .ContactUsContainer p{
+    margin: .1em;
   }
   .ContactUsContainer{
     
   }
-  .ContactUsContainer{
-    
-  }
-  .ContactUsContainer{
-    
+  @media(max-width:541px){
+    .ContactUsContainer .formContainer{
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 0;
+      align-items: center;
+      /* background: red; */
+    }
+    .ContactUsContainer .contactForm{
+      width: 90%;
+      margin: 1rem;
+      border: 1px solid black;
+      border-radius: .5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }

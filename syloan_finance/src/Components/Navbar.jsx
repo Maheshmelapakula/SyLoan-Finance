@@ -31,13 +31,15 @@ const Navbar = () => {
       title:'ContactUs',
       path:'/ContactUs'
 
-    }
+    },
   ]
   return (
     <div>
+
         {links.map((link)=>{
           return <Link to={link.path} key={link.path}>{link.title}</Link>
         })}
+
     </div>
   )
 }
