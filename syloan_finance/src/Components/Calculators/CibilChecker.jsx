@@ -8,7 +8,7 @@ import'./CibilChecker.css'
 const CibilCheker = () => {
 
 //  const store =useSelector();
-const cibilscore=850;
+const cibilscore=530;
 // const diff=600;
 
 const scoreinpercent=((cibilscore-300)/600)*100;
@@ -80,19 +80,19 @@ const scoreinpercent=((cibilscore-300)/600)*100;
 
     
 
-            <div class="" style={{backgroundColor:"orange" , padding:"15px"}}> Poor ( 421 - 660 )  </div>
+            <div class="" style={{backgroundColor:"orange" , padding:"15px"}}> Poor ( 421 - 540 )  </div>
 
     
 
-            <div class="" style={{backgroundColor:"yellow" , padding:"15px"}}> Fair ( 661 - 780 ) </div>
+            <div class="" style={{backgroundColor:"yellow" , padding:"15px"}}> Fair ( 541 - 660 ) </div>
 
     
 
-            <div class="" style={{backgroundColor:"greenyellow" , padding:"15px"}}> Good ( 421 - 660 )  </div>
+            <div class="" style={{backgroundColor:"greenyellow" , padding:"15px"}}> Good ( 661 - 780 )  </div>
 
     
 
-            <div class="" style={{backgroundColor:"green" , padding:"15px"}}> Excellent ( 661 - 780 ) </div>
+            <div class="" style={{backgroundColor:"green" , padding:"15px"}}> Excellent ( 781 - 900 ) </div>
 
   
 

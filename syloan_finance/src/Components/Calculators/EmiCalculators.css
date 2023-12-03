@@ -10,7 +10,18 @@
 
 .emiCaldiv{
     /* margin-bottom: 2%; */
+    /* border-radius: 1px solid black; */
+    
 }
+
+.emicalHeading{
+
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size:40px
+
+}
+
 
 .emirange{
     margin-bottom: 10%;

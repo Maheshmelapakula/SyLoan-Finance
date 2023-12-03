@@ -1,7 +1,9 @@
 .cibilchekerdiv{
+    width: 75%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin: 2%;
+    margin: auto;
+    /* margin: 2%; */
     margin-top: 10%;
 
 
