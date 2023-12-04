@@ -1,5 +1,6 @@
 // FormComponent.jsx
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const LoanPage = ({ onSubmit }) => {
   const [formData, setFormData] = useState({
@@ -11,6 +12,7 @@ const LoanPage = ({ onSubmit }) => {
     // Add more fields as needed for the loan application
   });
 
+  const navigate = useNavigate();
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -32,7 +34,7 @@ const LoanPage = ({ onSubmit }) => {
   };
   const handleConfirm = () =>{
     alert("Congrats your Loan is Approved")
-
+    navigate('/');
   }
 
   return (
