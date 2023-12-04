@@ -17,15 +17,20 @@
 
 .navlist a{
     margin-right: 10px;
+    text-decoration:none;
+    color:white;
 }
 .register-nav a{
     margin-right: 10px;
+    text-decoration:none;
+    color:white;
 }
 #register-button{
     border: 1px solid rgb(75, 188, 143);
     width: 100px;
     border-radius: 14px;
     color:rgb(75, 188, 143);
+    
     
 }
 
