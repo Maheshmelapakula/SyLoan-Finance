@@ -1,5 +1,9 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import LoanTypeSelector from './Components/LoanTypeSelector';
+import Products from './Components/Product/Products';
+
+
 
 import LoginSignup from './Components/LoginSignup/LoginSignup';
 import { useState } from 'react';
@@ -12,6 +16,7 @@ function App() {
   const [toggleAuth,setToggleAuth]=useState(false);
   return (
     <div className="App">
+
 
       {/* {toggleAuth?<Login setToggleAuth={setToggleAuth} toggleAuth={toggleAuth}/>:<LoginSignup setToggleAuth={setToggleAuth} toggleAuth={toggleAuth}/>} */}
       <Navbar/>
