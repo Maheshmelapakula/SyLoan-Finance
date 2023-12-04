@@ -1,14 +1,6 @@
 import React from "react";
 import Styles from "../Product/Products.module.css";
-import cerditCard from "./productsImages/creditCard.png";
-import PersonalLoan from "./productsImages/PersonalLoan.png";
-import MicroLoans from "./productsImages/MicroLoans.png";
-import TransferPersonalLoan from "./productsImages/TranferPersonalLoan.png";
-import HomeLoan from "./productsImages/HomeLoan.png";
-import LoanAgainstProperty from "./productsImages/LoanAgainstProperty.png";
-import BusinessLoan from "./productsImages/Business Loan.png";
-import stepUpCreditCard from "./productsImages/stepUpCreditCard.png";
-import transferHomeLoan from "./productsImages/transferHomeLoans.png";
+
 import { useNavigate } from "react-router-dom";
 const Products = () => {
   const navigate = useNavigate(); //maddagudu
