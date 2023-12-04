@@ -28,9 +28,12 @@ const Navbar = () => {
       path:'/Login'
     },
     {
+      title:"AboutUs",
+      path:'/AboutUs'
+    },
+    {
       title:'ContactUs',
       path:'/ContactUs'
-
     },
     {
       title:'Calculator',
