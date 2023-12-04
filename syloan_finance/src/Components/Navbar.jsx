@@ -40,7 +40,6 @@ const Navbar = () => {
   ]
   return (
     <div>
-// <<<<<<< helpAndSupport
         <nav className='navPage'>
         <Link to={'/'}><img src={logo} alt="1422211" /></Link>
         
