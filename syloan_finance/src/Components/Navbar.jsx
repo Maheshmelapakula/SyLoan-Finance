@@ -1,3 +1,4 @@
+
 // import React from 'react'
 
 // const Navbar = () => {
@@ -18,6 +19,10 @@ const Navbar = () => {
     {
       title:'Home',
       path:'/'
+    },
+    {
+      title:'product',
+      path:'/product'
     },
     {
       title:'SignUp',
@@ -52,3 +57,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+

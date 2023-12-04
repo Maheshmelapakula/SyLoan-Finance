@@ -1,3 +1,4 @@
+
 // import React from 'react'
 
 // const AllRoutes = () => {
@@ -21,10 +22,16 @@ import Calculator from '../Pages/Calculator'
 import { AboutUs } from '../Pages/AboutUs'
 
 
+import CheckEligibility from "../Pages/CheckEligibility";
+import Products from "../Components/Product/Products";
+import LoanPage from "../Pages/LoanPage";
+
+
 const AllRoutes = () => {
   return (
     <div>
       <Routes>
+
           <Route path='/' element={<Home/>}/>
           <Route path='/SignUp' element={<LoginSignup/>}/>
           <Route path='/Login' element={<Login/>}/>
@@ -32,10 +39,16 @@ const AllRoutes = () => {
           <Route path='/calculator' element={<Calculator/>}/>
           <Route path='/AboutUs' element={<AboutUs/>}/>
           {/* AboutUs */}
+          <Route path="/product" element={<Products />}></Route>
+          <Route path="/checkEligiblity" element={<CheckEligibility />}></Route>
+          <Route path="/loanApplication" element={<LoanPage />}></Route>
       </Routes>
     </div>
-  )
-}
+  );
+};
+
 
 export default AllRoutes
+
+
 
