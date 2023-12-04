@@ -8,7 +8,7 @@ import'./CibilChecker.css'
 const CibilCheker = () => {
 
 //  const store =useSelector();
-const cibilscore=530;
+const cibilscore=775;
 // const diff=600;
 
 const scoreinpercent=((cibilscore-300)/600)*100;
