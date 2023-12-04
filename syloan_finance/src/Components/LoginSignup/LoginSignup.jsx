@@ -14,6 +14,8 @@ import password_icon from '../Assets/password.png';
 import { getAuth, createUserWithEmailAndPassword,GoogleAuthProvider,signInWithPopup } from "firebase/auth";
 // import { Navigate } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../Footer';
+
 
 // const LoginSignup = ({toggleAuth,setToggleAuth}) => {
     const LoginSignup = () => {
@@ -76,39 +78,42 @@ import { useNavigate } from 'react-router-dom';
             navigate('/Login'); 
           };
   return (
-    <div className='container'>
+    <div>
+        <div className='container'>
      
-        <div className="header">
-            <div className='text' >Sign Up</div>
-            <div className='underline'></div>
-        </div>
-        <div className='inputs'>
-        {/* <div className="input">
-            <img src={user_icon} alt="" />
-                <input type='text' placeholder= "Enter Your Name" />
-        </div> */}
-        <div className="input">
-            <img src={email_icon} alt="" />
-            <input type="text" placeholder= 'Enter Your Email' name={email} onChange={(e)=>setEmail(e.target.value)}/>
-                {/* <input type='email' value={email} onChange={handleEmail}/> */}
-        </div>
-        <div className="input">
-            <img src={password_icon} alt="" />
-            <input type="password" placeholder='Enter Password' name={password} onChange={(e)=>setPassword(e.target.value)}/>
-                {/* <input type='password' value={password} onChange={handlePassword} /> */}
-        </div>
-        </div>
-       
-        {/* <div className='forgot-password'><span>Forgot Password?</span></div> */}
-        <div className='submit-container'>
-        <button onClick={handleSignup}>Signup</button>
-        {/* <button onClick={handleLogin}>Login</button> */}
-        <button onClick={handleGoogle}>Google</button>
-        <button onClick={handleComponent}>Already have an account? Login</button>
-        
-        </div>
-
+     <div className="header">
+         <div className='text' >Sign Up</div>
+         <div className='underline'></div>
+     </div>
+     <div className='inputs'>
+     {/* <div className="input">
+         <img src={user_icon} alt="" />
+             <input type='text' placeholder= "Enter Your Name" />
+     </div> */}
+     <div className="input">
+         <img src={email_icon} alt="" />
+         <input type="text" placeholder= 'Enter Your Email' name={email} onChange={(e)=>setEmail(e.target.value)}/>
+             {/* <input type='email' value={email} onChange={handleEmail}/> */}
+     </div>
+     <div className="input">
+         <img src={password_icon} alt="" />
+         <input type="password" placeholder='Enter Password' name={password} onChange={(e)=>setPassword(e.target.value)}/>
+             {/* <input type='password' value={password} onChange={handlePassword} /> */}
+     </div>
+     </div>
+    
+     {/* <div className='forgot-password'><span>Forgot Password?</span></div> */}
+     <div className='submit-container'>
+     <button onClick={handleSignup}>Signup</button>
+     {/* <button onClick={handleLogin}>Login</button> */}
+     <button onClick={handleGoogle}>Google</button>
+     <button onClick={handleComponent}>Already have an account? Login</button>
+     
+     </div>
     </div>
+    <Footer/>
+    </div>
+    
   )
 }
 

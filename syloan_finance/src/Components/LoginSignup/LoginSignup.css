@@ -221,7 +221,8 @@ cursor: pointer;}
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    margin: 7rem auto;
     width: 400px;
     background: #ffffff;
     padding: 20px;
@@ -308,8 +309,10 @@ cursor: pointer;}
   
   .submit {
     color: #fff;
+    
     background: linear-gradient(90deg, #4c00b4 0%, #6500b4 100%); /* Gradient background */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    
   }
   
   .submit:hover {
@@ -328,10 +331,13 @@ cursor: pointer;}
   .submit-container button{
     border: none;
     padding: .7em;
+    background-color:#5476ff;
+    color: white;
+    border-radius: 1.1rem;
     /* background: #3c009d; */
   }
   .submit-container button:hover{
-    background: green;
+    background-color:#0000f4;
     /* background: #3c009d; */
   }
   

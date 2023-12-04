@@ -1,19 +1,11 @@
 
-// import React from 'react'
-
-// const Navbar = () => {
-//   return (
-//     <div>
-//         <h1>NavBar</h1>
-      
-//     </div>
-//   )
-// }
-
-// export default Navbar
 import React from 'react'
 import { Link } from 'react-router-dom'
- import logo from "./Assets/logo.jpg"
+// <<<<<<< helpAndSupport
+import logo from './Assets/logo.jpg'
+// =======
+//  import logo from "./Assets/logo.jpg"
+// >>>>>>> main
 
 const Navbar = () => {
   const links=[
@@ -48,6 +40,30 @@ const Navbar = () => {
   ]
   return (
     <div>
+// <<<<<<< helpAndSupport
+        <nav className='navPage'>
+        <Link to={'/'}><img src={logo} alt="1422211" /></Link>
+        
+        <ul className='navList1'>
+            <li className='navlist'>
+                {/* <a href="#">UseCases</a> */}
+                <Link to={'/product'}><a href="#">Product</a></Link>
+                <Link to={'/calculator'}><a href="#">Calculator</a></Link>
+                <Link to={'/ContactUs'}><a href="#">Support</a></Link>
+                {/* <a href="#">Company</a>
+                <a href="#">Support</a> */}
+            </li>
+        </ul>
+        <div className='register-nav'>
+        {/* /Login */}
+        
+        <Link to={'/Login'}><a href="#">Login</a></Link>
+        <Link to={'/SignUp'}><button id='register-button'>Register</button></Link>
+        
+        </div>
+    </nav>
+        {/* {links.map((link)=>{
+// =======
     <nav className='navPage'>
         <img src={logo} alt="1422211" />
         <ul className='navList1'>
@@ -64,8 +80,9 @@ const Navbar = () => {
         </div>
     </nav>
         {links.map((link)=>{
+// >>>>>>> main
           return <Link to={link.path} key={link.path}>{link.title}</Link>
-        })}
+        })} */}
 
     </div>
   )

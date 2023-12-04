@@ -63,12 +63,12 @@ export const ContactUs = () => {
         </div>
 
         <div className={style.contactInfo}>
-            <h2>Contact Information</h2>
+            <h2 className={style.title}>Contact Information</h2>
             <p>
-              <strong>Email:</strong> info@example.com
+              <strong>Email:</strong> xyz@gmail.com
             </p>
             <p>
-              <strong>Phone:</strong> (123) 456-7890
+              <strong>Phone:</strong> (+91) 1234567890
             </p>
             <p>
               <strong>Address:</strong> 123 Main Street

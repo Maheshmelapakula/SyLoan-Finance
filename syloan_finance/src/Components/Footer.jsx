@@ -6,6 +6,7 @@ import instagram from "./Assets/instagram.jpg"
 import twitter from "./Assets/twitter.jpg"
 import location from "./Assets/location.png"
 import mail from "./Assets/mail.png"
+import {Link} from 'react-router-dom'
 
 
 const Footer = () => {
@@ -35,15 +36,17 @@ const Footer = () => {
     
 
 
-                <div>
+                <div className='quickmenu-container'>
                     <h3 id='quickmenu'>Quick Menu</h3>
                     <div>
                         <ul className=''>
                             <li className=''>
                                 <a href="#">UseCases</a>
-                                <a href="#">Product</a>
+                                <Link to={'/product'}><a href="#">Product</a></Link>
+                                
                                 <a href="#">Company</a>
-                                <a href="#">Support</a>
+                                <Link to={'/ContactUs'}><a href="#">Support</a></Link>
+                                
                             </li>
                         </ul>
  

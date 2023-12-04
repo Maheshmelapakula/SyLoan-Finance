@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Components/Footer'
 
 export const AboutUs = () => {
   return (
@@ -16,6 +17,7 @@ export const AboutUs = () => {
          <p>If you require any more information or have any questions about our site, please feel free to contact us<b></b>.
          </p>
          <p>Thanks For Visiting Our Site</p>
+         <Footer/>
     </div>
     
     // <div>
