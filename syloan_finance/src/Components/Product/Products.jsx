@@ -6,8 +6,8 @@ import Footer from "../Footer";
 const Products = () => {
   const navigate = useNavigate(); //maddagudu
   return (
-    <div style={{background : "aliceblue"}}>
-      <h2>Products</h2>
+    <div style={{background : "aliceblue",margin:'3rem auto'}}>
+      {/* <h2>Products</h2> */}
       <div id={Styles.container}>
         <div className={Styles.card}>
           <div className={Styles.card1}>
