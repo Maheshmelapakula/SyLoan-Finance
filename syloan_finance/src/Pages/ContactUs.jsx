@@ -18,6 +18,7 @@ export const ContactUs = () => {
 
     const handleChangeMsg=(e)=>{
       const {name,value}=e.target;
+      console.log(name,value);
       setMsg({...msg,[name]:value});
     }
 
@@ -30,9 +31,9 @@ export const ContactUs = () => {
         email:mail.email,
         message:mail.message
       }).then(()=>{
-          alert('Msg send')
+          alert('Mail send')
       }).catch(()=>{
-          alert('Msg not send')
+          alert('Mail not send')
       })
     }
 
@@ -44,9 +45,9 @@ export const ContactUs = () => {
         phone:msg.phone,
         message:msg.message
       }).then(()=>{
-          alert('Mail send')
+          alert('Message send')
       }).catch(()=>{
-          alert('Mail not send')
+          alert('Message not send')
       })
     }
   return (
