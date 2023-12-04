@@ -18,6 +18,7 @@ import { ContactUs } from '../Pages/ContactUs'
 import LoginSignup from '../Components/LoginSignup/LoginSignup'
 import Login from '../Components/LoginSignup/Login'
 import Calculator from '../Pages/Calculator'
+import { AboutUs } from '../Pages/AboutUs'
 
 
 const AllRoutes = () => {
@@ -29,6 +30,8 @@ const AllRoutes = () => {
           <Route path='/Login' element={<Login/>}/>
           <Route path='/ContactUs' element={<ContactUs/>}/>
           <Route path='/calculator' element={<Calculator/>}/>
+          <Route path='/AboutUs' element={<AboutUs/>}/>
+          {/* AboutUs */}
       </Routes>
     </div>
   )
