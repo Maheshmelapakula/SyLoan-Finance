@@ -16,7 +16,7 @@ const CheckEligibility = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    let localStorageCibil = 890;
+    let localStorageCibil = 775;
     setCibil(localStorageCibil);
     if (localStorageCibil < 650) {
       setIsEligible(false);
