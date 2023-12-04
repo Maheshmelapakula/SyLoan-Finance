@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import LoanEligibilityModal from "../Components/LoanEligibilityModal";
 import { useNavigate } from "react-router-dom";
+import Footer from '../Components/Footer'
 
 const CheckEligibility = () => {
   const navigate = useNavigate();
@@ -42,7 +43,8 @@ const CheckEligibility = () => {
   };
 
   return (
-    <div
+    <div>
+      <div
       style={{
         display: "flex",
         gap: "20px",
@@ -136,7 +138,11 @@ const CheckEligibility = () => {
         isEligible={isEligible}
         onProceed={handleProceed}
       />
+      
     </div>
+      <Footer/>
+    </div>
+    
   );
 };
 

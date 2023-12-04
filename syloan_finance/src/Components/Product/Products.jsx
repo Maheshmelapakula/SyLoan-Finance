@@ -2,6 +2,7 @@ import React from "react";
 import Styles from "../Product/Products.module.css";
 
 import { useNavigate } from "react-router-dom";
+import Footer from "../Footer";
 const Products = () => {
   const navigate = useNavigate(); //maddagudu
   return (
@@ -107,6 +108,7 @@ const Products = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

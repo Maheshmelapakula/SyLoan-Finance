@@ -17,9 +17,13 @@
 
 .navlist a{
     margin-right: 10px;
+    text-decoration: none;
+    color: white;
 }
 .register-nav a{
     margin-right: 10px;
+    text-decoration: none;
+    color:white;
 }
 #register-button{
     border: 1px solid rgb(75, 188, 143);
@@ -203,7 +207,11 @@
 .footer-bottom div:first-child>p{
     width: 60%;
     color: grey;
-}     
+}   
+.quickmenu-container a{
+    text-decoration: none;
+    color: white;
+}  
 
 /* ... Your existing code ... */
 

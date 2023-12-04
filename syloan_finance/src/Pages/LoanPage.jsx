@@ -1,6 +1,7 @@
 // FormComponent.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../Components/Footer'
 
 const LoanPage = ({ onSubmit }) => {
   const [formData, setFormData] = useState({
@@ -38,7 +39,8 @@ const LoanPage = ({ onSubmit }) => {
   }
 
   return (
-    <form onSubmit={handleSubmit} style={styles.form}>
+    <div>
+        <form onSubmit={handleSubmit} style={styles.form}>
       <div style={styles.formGroup}>
         <label htmlFor="name" style={styles.label}>Name:</label>
         <input
@@ -78,6 +80,8 @@ const LoanPage = ({ onSubmit }) => {
       {/* Add more input fields for other information needed */}
       <button onClick={()=>handleConfirm()} type="submit" style={styles.button}>Confirm</button>
     </form>
+      <Footer/>
+    </div>
   );
 };
 
@@ -89,6 +93,7 @@ const styles = {
     flexDirection: 'column',
     maxWidth: '400px',
     margin: 'auto',
+    margin:'5rem auto'
   },
   formGroup: {
     marginBottom: '1rem',

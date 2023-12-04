@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import email_icon from '../Assets/email.png';
 import password_icon from '../Assets/password.png'; 
 import Home from '../../Pages/Home';
+import Footer from '../Footer';
 // import {app} from ""
 
 // const Login = ({toggleAuth,setToggleAuth}) => {
@@ -51,31 +52,35 @@ const Login = () => {
         // Navigate('/SignUp');
       };
     return (
-        <div className='container'>
+        <div>
+            <div className='container'>
          
-            <div className="header">
-                <div className='text'>Login</div>
-                <div className='underline'></div>
+         <div className="header">
+             <div className='text'>Login</div>
+             <div className='underline'></div>
+         </div>
+         <div className='inputs'>
+         <div className="input">
+             <img src={email_icon} alt="" />
+                 <input type='email' placeholder='Enter Mail' value={email} onChange={(e)=>setEmail(e.target.value)}/>
+         </div>
+         <div className="input">
+             <img src={password_icon} alt="" />
+                 <input type='password' placeholder='Enter Password' value={password} onChange={(e)=>setPassword(e.target.value)}/>
+         </div>
+         </div>
+         <div className='submit-container' style={{ textAlign: 'center' }}>
+         <button style={{ margin: '10px' }} onClick={handleLogin}>Login</button>
+         {/* <div className={action === "Login" ? "submit gray" : "submit"} onClick={() => {setAction("Sign Up")}}>Sign Up</div>
+         <div className={action === "Sign Up" ? "submit gray" : "submit"} onClick={() => {setAction("Login")}}>Login</div> */}
+         
+         <button style={{ margin: '10px' }} onClick={handleComponent}>I don't have account</button>
+         </div>
+         
             </div>
-            <div className='inputs'>
-            <div className="input">
-                <img src={email_icon} alt="" />
-                    <input type='email' placeholder='Enter Mail' value={email} onChange={(e)=>setEmail(e.target.value)}/>
-            </div>
-            <div className="input">
-                <img src={password_icon} alt="" />
-                    <input type='password' placeholder='Enter Password' value={password} onChange={(e)=>setPassword(e.target.value)}/>
-            </div>
-            </div>
-            <div className='submit-container' style={{ textAlign: 'center' }}>
-            <button style={{ margin: '10px' }} onClick={handleLogin}>Login</button>
-            {/* <div className={action === "Login" ? "submit gray" : "submit"} onClick={() => {setAction("Sign Up")}}>Sign Up</div>
-            <div className={action === "Sign Up" ? "submit gray" : "submit"} onClick={() => {setAction("Login")}}>Login</div> */}
-            
-            <button style={{ margin: '10px' }} onClick={handleComponent}>I don't have account</button>
-            </div>
-    
+          <Footer/>
         </div>
+        
       )
 }
 
