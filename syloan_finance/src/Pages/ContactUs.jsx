@@ -18,6 +18,7 @@ export const ContactUs = () => {
 
     const handleChangeMsg=(e)=>{
       const {name,value}=e.target;
+      console.log(name,value);
       setMsg({...msg,[name]:value});
     }
 
